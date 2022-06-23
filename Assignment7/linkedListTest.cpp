@@ -1,10 +1,7 @@
 /**
-** CPSC 1160 - Section 003 - Assignment 7
 ** Program Name: LinkedList
 ** Purpose: Implement a structure for representing a linked list of integers and functions to illustrate its various features
 ** Author: Chiemi Mita
-** Student ID: 100320919
-** Date: July 19, 2019
 ** Limitation: No known limitations
 */
 
@@ -56,7 +53,6 @@ int main(){
     cout << "Actual result: ";
     p2 = append(100, p2);
     printList(p2);
-
 
     // Test reverse function
     cout << "\n***** Test reverse function *****" << endl;
@@ -213,7 +209,6 @@ int main(){
     Node* p7 = readList();
     cout << "Actual result: ";
     printList(p7);
-
 
     // Test deleteList function
     cout << "\n***** Test deleteList function *****" << endl;
