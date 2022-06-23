@@ -1,11 +1,3 @@
-/*
- * Name: Chiemi Mita
- * ID: 100320919
- * Instructor: Bita Shadgar
- * Section: CPSC 2150 - 001
- * AVLTree.h: Models a AVL tree
-*/
-
 #ifndef AVL_H_INCLUDED
 #define AVL_H_INCLUDED
 
