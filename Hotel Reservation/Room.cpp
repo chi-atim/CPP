@@ -1,7 +1,9 @@
-// Room.cpp file
-// Description: This class models a Room
-// Author: Chiemi Mita
-// Creation date: Jan 22, 2020
+/**
+** Program Name: Hotel Resesrvation
+** File Name: Room.cpp
+** Purpose: Implements the Room class methods
+** Author: Chiemi Mita
+*/
 
 #include <iostream>
 #include "Room.h"
