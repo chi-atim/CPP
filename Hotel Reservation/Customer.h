@@ -1,7 +1,6 @@
 // Customer.h file
 // Description: This class models a Customer
 // Author: Chiemi Mita
-// Creation date: Jan 22, 2020
 
 
 #ifndef Customer_H_INCLUDED
