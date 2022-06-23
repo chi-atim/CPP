@@ -1,0 +1,94 @@
+
+--> q = [ ]
+expecting [ ]
+
+--> length(q) = 0
+expecting 0
+
+--> p = [ 3 2 ]
+expecting [ 3 2 ]
+
+--> length(p) = 2
+expecting 2
+
+--> after append: [ 3 2 1 ]
+expecting [ 3 2 1 ]
+
+--> after appending to an empty list: [ 1160 ]
+expecting [ 1160 ]
+
+--> after reverse: [ 1 2 3 ]
+expecting [ 1 2 3 ]
+
+--> after reversing the empty list [ ]
+expecting [ ]
+
+--> found 3 as expected
+
+--> did not find 4 as expected
+
+--> did not find 4 in the empty list as expected
+
+--> no duplicates in the empty list as expected
+
+--> q = [ 8 7 3 1 3 ]
+expecting q = [ 8 7 3 1 3 ]
+
+--> q has duplicates as expected
+
+--> p = [ 1 2 3 ]
+expecting p = [ 1 2 3 ]
+
+--> p does not have duplicates as expected
+
+--> q is longer than p as expected
+
+--> p is NOT longer than itself as expected
+
+--> p is NOT longer than q as expected
+
+--> after deleteList q = [ ]
+expecting q = [ ]
+
+--> p is longer than the empty list q as expected
+
+--> p = [ 1 2 3 4 ]
+expecting p = [ 1 2 3 4 ]
+
+--> the list starting with the ith Node, for i=3 is [ 4 ]
+expecting [ 4 ]
+
+--> the list starting with the ith Node, for i=9 is [ ]
+expecting [ ]
+
+--> Enter integers and exit with a non digit: 2 0 1 5 w
+
+--> 2 0 1 5 w
+
+--> after readList: r = [ 2 0 1 5 ]
+expecting r = [ 2 0 1 5 ]
+
+--> Enter a non digit to create an empty list
+
+--> w
+
+--> after readList: q = [ ]
+expecting q = [ ]
+
+--> after deleteList: [ ]
+expecting [ ]
+
+--> after array2List: q = [ 1 3 5 7 ]
+expecting q = [ 1 3 5 7 ]
+
+--> after merging p and q: [ 4 6 6 7 10 ]
+expecting [ 4 6 6 7 10 ]
+
+--> after merging with an empty list: [ 1 2 3 4 ]
+expecting [ 1 2 3 4 ]
+
+--> after merging with an empty list: [ 1 2 3 4 ]
+expecting [ 1 2 3 4 ]
+
+--> after merging t and r: [ 1 2 3 3 4 4 4 10 12 15 ]
+expecting [ 1 2 3 3 4 4 4 10 12 15 ]

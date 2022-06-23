@@ -1,0 +1,110 @@
+output of linkedListTest.cpp
+
+***** Test length function *****
+Expected result of length(p1): 3
+Actual result: 3
+Expected result of length(p2): 0
+Actual result: 0
+Expected result of length(p3): 5
+Actual result: 5
+
+***** Test printList function *****
+Expected result of printList(p1): [ 33 22 11 ]
+Actual result: [ 33 22 11 ]
+Expected result of printList(p2): [ ]
+Actual result: [ ]
+Expected result of printList(p3): [ 99 99 88 77 77 ]
+Actual result: [ 99 99 88 77 77 ]
+
+***** Test append function *****
+Before append: [ 33 22 11 ]
+Expected result of after append(0, p1): [33 22 11 0 ]
+Actual result: [ 33 22 11 0 ]
+Before append: [ ]
+Expected result of after append(100, p2): [ 100 ]
+Actual result: [ 100 ]
+
+***** Test reverse function *****
+Before reverse(p1): [ 33 22 11 0 ]
+Expected result of after reverse(p1): [ 0 11 22 33 ]
+Actual result: [ 0 11 22 33 ]
+Before reverse(p4): [ ]
+Expected result of after reverse(p4): [ ]
+Actual result: [ ]
+
+***** Test searchInOrder function *****
+Expected result of searchInOrder(11, p1): true
+Actual result: true
+Expected result of searchInOrder(12, p1): false
+Actual result: false
+Expected result of searchInOrder(0, p2): false
+Actual result: false
+
+***** Test hasDuplicates function *****
+Expected result of hasDuplicates(p1): false
+Actual result: false
+Expected result of hasDuplicates(p2): false
+Actual result: false
+Expected result of hasDuplicates(p3): true
+Actual result: true
+
+***** Test isLonger function *****
+Expected result of isLonger(p1, p2): true (p1 is longer than p2)
+Actual result: true
+Expected result of isLonger(p1, p3): false (p1 is not longer than p3)
+Actual result: false
+Expected result of isLonger(p4, p5): false (p4 is same length as p5)
+Actual result: false
+
+***** Test ithNode function *****
+Expected result of ithNode(p1, 2): [ 22 33 ]
+Actual result: [ 22 33 ]
+Expected result of ithNode(p1, 8): [ ] (i is larger than list length)
+Actual result: [ ]
+Expected result of ithNode(p4, 0): [ ] (empty linked list)
+Actual result: [ ]
+
+***** Test mergeTwoOrderedLists function *****
+Expected result of mergeTwoOrderedLists(m1, m2): [ 0 2 3 4 5 6 7 7 8 15 ]
+Actual result: [ 0 2 3 4 5 6 7 7 8 15 ]
+Expected result of mergeTwoOrderedLists(m3, m4): [ 7 ]
+Actual result: [ 7 ]
+Expected result of mergeTwoOrderedLists(m5, m6): [ 2 ]
+Actual result: [ 2 ]
+Expected result of mergeTwoOrderedLists(m7, m8): [ 0 2 3 6 8 9 ]
+Actual result: [ 0 2 3 6 8 9 ]
+
+***** Test array2List function *****
+Expected result of array2List(A, 5): [ 1 2 6 7 9 ]
+Actual result: [ 1 2 6 7 9 ]
+Expected result of array2List(B, 4): [ 8 8 9 0 ]
+Actual result: [ 8 8 9 0 ]
+Expected result of array2List(C, 0): [ ]
+Actual result: [ ]
+
+***** Test readList function *****
+Enter integers and exit with a non digit: 2 0 1 5 w
+2 0 1 5 w
+Actual result: [ 2 0 1 5 ]
+Enter a non digit to create an empty list:
+w
+Actual result: [ ]
+
+***** Test deleteList function *****
+Before deleteList:
+p1 = [ 0 11 22 33 ]
+p2 = [ 100 ]
+p3 = [ 99 99 88 77 77 ]
+p4 = [ ]
+p5 = [ ]
+p6 = [ 2 0 1 5 ]
+p7 = [ ]
+Expected result of after deleteList for p1 - p7: [ ]
+Actual result:
+p1 = [ ]
+p2 = [ ]
+p3 = [ ]
+p4 = [ ]
+p5 = [ ]
+p6 = [ ]
+p7 = [ ]
