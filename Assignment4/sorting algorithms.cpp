@@ -1,7 +1,13 @@
+/**
+** Program Name: Sorting
+** Purpose: implement Sorting algorithms (Quick, Merge and Selection sort), then determines the running time complexity.
+** Author: Chiemi Mita
+** Limitation: No known limitations
+*/
+
 #include<iostream>
 #include<cstdlib>
 #include <ctime>
-
 
 using namespace std;
 
@@ -41,12 +47,14 @@ int main(){
 
     return 0;
 }
+
 /*Generate arrays of random integers*/
 void makeArray(int A[], int n){
     for (int i=0; i<n; i++){
         A[i]=rand()%RAND_MAX+RAND_MAX;
     }
 }
+
 /*selection sort - acknowledge the source*/
 void selectionSort(int A[], int n){
     for(int i=0; i<n; i++){
@@ -58,6 +66,7 @@ void selectionSort(int A[], int n){
         swap(A, i, minIndex);
     }
 }
+
 /*quick sort - acknowledge the source*/
 void quickSort(int A[], int n){
     quickSort(A, 0, n-1);
@@ -93,6 +102,7 @@ int partition(int A[], int low, int high){
     swap(A, first, high);
     return high;
 }
+
 /*merge sort - acknowledge the source*/
 void mergeSort(int A[], int W[], int n){
     mergeSort(A, 0, n-1, W);
