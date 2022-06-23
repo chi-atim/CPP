@@ -1,7 +1,6 @@
 // Date.h file
 // Description: This class models a Date
 // Author: Chiemi Mita
-// Creation date: Jan 22, 2020
 
 #ifndef Date_H_INCLUDED
 #define Date_H_INCLUDED
