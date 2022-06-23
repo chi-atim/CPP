@@ -1,6 +1,9 @@
-// Date.cpp file
-// Description: This class models a Date
-// Author: Chiemi Mita
+/**
+** Program Name: Hotel Reservation
+** File Name: Date.cpp
+** Purpose: Implements the Date constructor
+** Author: Chiemi Mita
+*/
 
 #include <iostream>
 #include <string>
