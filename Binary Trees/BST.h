@@ -1,5 +1,5 @@
 /**
-** Program Name: Binary Trees
+** Program Name: BST
 ** File Name: Customer.h
 ** Purpose: Declares the header for the BST class
 ** Author: Chiemi Mita
