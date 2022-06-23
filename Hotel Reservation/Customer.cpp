@@ -1,6 +1,9 @@
-// Customer.cpp file
-// Description: This class models a Customer
-// Author: Chiemi Mita
+/**
+** Program Name: Hotel Manager
+** File Name: Customer.cpp
+** Purpose: Implements the Customer class methods
+** Author: Chiemi Mita
+*/
 
 #include <iostream>
 #include <string>
