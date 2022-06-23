@@ -1,9 +1,9 @@
-// Hotel.h file
-// Description: This class models a Hotel
-// Author: Chiemi Mita
-// Creation date: Jan 22, 2020
-// Reference: SLL class that posted on course materials
-
+/**
+** Program Name: Hotel Reservation
+** File Name: Hotel.h
+** Purpose: Declares the header for the Hotel class
+** Author: Chiemi Mita
+*/
 
 #include "Customer.h"
 #include "SLL.h"
