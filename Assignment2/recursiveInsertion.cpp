@@ -1,3 +1,10 @@
+/**
+** Program Name: Recursive insertion program:
+** Purpose: Implement the recursive insertion sort.
+** Author: Chiemi Mita
+** Limitation: No known limitations
+*/
+
 #include<iostream>
 #include<cstdlib>
 #include <ctime>
@@ -25,6 +32,7 @@ int main(){
 
     return 0;
 }
+
 void display(int list[], int n){
     for (int i=0; i<n; i++){
         if (list[i]/10==0)
