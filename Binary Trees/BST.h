@@ -1,8 +1,9 @@
-// BST.h file
-// Description: This class models a Binary Search Tree
-// Author: Chiemi Mita
-// Creation date: March 8, 2020
-
+/**
+** Program Name: Binary Trees
+** File Name: Customer.h
+** Purpose: Declares the header for the BST class
+** Author: Chiemi Mita
+*/
 
 #ifndef BST_H_INCLUDED
 #define BST_H_INCLUDED
