@@ -1,8 +1,10 @@
-// SLL.h file
-// Description: This class models a SLL
-// Author: Chiemi Mita
-// Creation date: Jan 22, 2020
-// Reference: SLL class that posted on course materials
+/**
+** Program Name: Hotel Reservation
+** File Name: SLL.h
+** Purpose: Declares the header for the SLL class, a Singly Linked List
+** Author: Chiemi Mita
+*/
+
 
 #ifndef SINGLY_LINKED_LIST
 #define SINGLY_LINKED_LIST
@@ -26,7 +28,8 @@ public:
 	    info = data;
         next = link;
 	}
-	/* Class SLL and Iterator can access all private data members and functions of Node*/
+	
+	// Class SLL and Iterator can access all private data members and functions of Node*/
 	friend class SLL<T>;
 	friend class Iterator<T>;
 private:
@@ -67,7 +70,7 @@ public:
   T& operator*() {
     return current->info;
   }
-  /* Class SLL can access all private and protected items of Iterator */
+  // Class SLL can access all private and protected items of Iterator */
   friend class SLL<T>;
 private:
   Node<T>* current;
@@ -114,7 +117,7 @@ private:
 template<typename T>
 void SLL<T>::addFirst(T data){
 	Node<T>* temp;
-	if (head == nullptr){ //special case
+	if (head == nullptr){ //Special Case
 	   temp = new Node<T>(data, nullptr);
 	   head = tail = temp;
 	   size++;
@@ -129,7 +132,7 @@ void SLL<T>::addFirst(T data){
 template<typename T>
 void SLL<T>::addLast(T data){
 	Node<T>* temp = new Node<T>(data, nullptr);
-	if (head==nullptr){ //special case
+	if (head==nullptr){ //Special Case
 	  head = tail = temp;
 	  size++;
 	}
@@ -195,6 +198,7 @@ bool SLL<T>::remove(T target){
 	 		tail = nullptr;
 	 	return true;
 	}
+	
 	// there is more than one node in the list
 	prev = head;
 	tmp = head->next;
