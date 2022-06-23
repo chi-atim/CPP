@@ -1,10 +1,3 @@
-/*
- * Name: Chiemi Mita
- * ID: 100320919
- * Instructor: Bita Shadgar
- * Section: CPSC 2150 - 001
- * testAVL.cpp: Tests AVL tree function
-*/
 
 #include <iostream>
 #include <fstream>
