@@ -116,7 +116,7 @@ ostream& operator<< (ostream& out, const Complex& c1){
     return out;
 }
 
-/* Bonus part */
+
 /** Add the second Complex number to the first Complex number
 * @params two Complex number objects, c1 and c2
 * @return the first Complex number object, c1. (return by reference)
