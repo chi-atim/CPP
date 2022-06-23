@@ -1,6 +1,9 @@
-// Date.h file
-// Description: This class models a Date
-// Author: Chiemi Mita
+/**
+** Program Name: Hotel Reservation
+** File Name: Date.h
+** Purpose: Declares the header for the Date class
+** Author: Chiemi Mita
+*/
 
 #ifndef Date_H_INCLUDED
 #define Date_H_INCLUDED
