@@ -1,10 +1,7 @@
 /**
-** CPSC 1160 - Section 003 - Assignment 6
 ** Program Name: Poly
 ** Purpose: Implement a structure for representing polynomial with integer coefficients.
 ** Author: Chiemi Mita
-** Student ID: 100320919
-** Date: July 7, 2019
 ** Limitation: No known limitations
 */
 
