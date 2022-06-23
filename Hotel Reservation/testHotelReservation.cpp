@@ -1,8 +1,9 @@
-// testHotelReservation.cpp file
-// Description: Tests the Hotel Reservation program
-// Author: Chiemi Mita
-// Creation date: Jan 22, 2020
-
+/**
+** Program Name: Hotel Reservation
+** File Name: testHotelReservation.cpp
+** Purpose: Tests the Hotel Reservation program
+** Author: Chiemi Mita
+*/
 
 #include <iostream>
 #include <string>
