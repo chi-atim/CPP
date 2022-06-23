@@ -1,12 +1,3 @@
-/*
- * Name: Chiemi Mita
- * ID: 100320919
- * Instructor: Bita Shadgar
- * Section: CPSC 2150 - 001
- * BST.h: Models a Binary Search Tree
-*/
-
-
 #ifndef BST_H_INCLUDED
 #define BST_H_INCLUDED
 
