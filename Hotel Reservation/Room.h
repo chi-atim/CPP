@@ -1,8 +1,9 @@
-// Room.h file
-// Description: This class models a Room
-// Author: Chiemi Mita
-// Creation date: Jan 22, 2020
-// Reference: SLL class that posted on course materials
+/**
+** Program Name: Hotel Reservation
+** File Name: Room.h
+** Purpose: Declares the header for the Room class
+** Author: Chiemi Mita
+*/
 
 #include "Date.h"
 #include "Customer.h"
