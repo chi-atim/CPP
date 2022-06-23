@@ -1,7 +1,7 @@
 /**
 ** Program Name: Hotel Reservation
 ** File Name: Date.cpp
-** Purpose: Implements the Date constructor
+** Purpose: Implements the Date class methods
 ** Author: Chiemi Mita
 */
 
