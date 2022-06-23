@@ -1,7 +1,6 @@
 // Date.cpp file
 // Description: This class models a Date
 // Author: Chiemi Mita
-// Creation date: Jan 22, 2020
 
 #include <iostream>
 #include <string>
