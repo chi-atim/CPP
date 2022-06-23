@@ -1,5 +1,5 @@
 /**
-** Program Name: Hotel Manager
+** Program Name: Hotel Reservation
 ** File Name: Customer.cpp
 ** Purpose: Implements the Customer class methods
 ** Author: Chiemi Mita
