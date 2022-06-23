@@ -1,8 +1,9 @@
-// testBST.cpp file
-// Description: Tests BST program
-// Author: Chiemi Mita
-// Creation date: March 8, 2020
-
+/**
+** Program Name: Binary Trees
+** File Name: testBST.cpp
+** Purpose: Tests the Binary Trees program
+** Author: Chiemi Mita
+*/
 
 #include <iostream>
 #include <ctime>
@@ -98,7 +99,7 @@ BST<int> makeBST(vector<int> *v){
     }
     return b;
 }
-// Given a binary tree, prints the tree’s elements using an in-order traversal
+// Given a binary tree, prints the treeâ€™s elements using an in-order traversal
 void printBT(BST<int> b){
     printBT(b.getRoot());
     cout << "\n";
