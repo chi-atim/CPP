@@ -1,3 +1,10 @@
+/**
+** Program Name: Birthday Paradox.
+** Purpose: Estimates the probability P that if N people are in a room, at least two people in that room will have the same birthday.
+** Author: Chiemi Mita
+** Limitation: No known limitations
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
@@ -15,6 +22,7 @@ bool isShared(int birthday[], int n){
     }
     return false;
 }
+
 int birthdayParadox(const int n, int trials){
     srand(time(NULL));
 
@@ -29,6 +37,7 @@ int birthdayParadox(const int n, int trials){
     }
     return C;
 }
+
 int main(){
 
     int N = 20;//the number of people in the room
