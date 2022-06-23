@@ -107,7 +107,7 @@ int main(){
 
     Complex c6(-9.9, -2), c7;
 
-    // Test Bonus "+="
+    // Test "+="
     cout << "\nExpected result of (1.2+3.4i) += (5.5+0i) = (6.7+3.4i)" << endl;
     c1 += c2;
     cout << "Actual result: " << c1 << endl;
@@ -118,7 +118,7 @@ int main(){
     c4 += c6;
     cout << "Actual result: " << c4 << endl;
 
-    // Test Bonus "-="
+    // Test "-="
     cout << "\nExpected result of (6.7+3.4i) -= (5.5+0i) = (1.2+3.4i)" << endl;
     c1 -= c2;
     cout << "Actual result: " << c1 << endl;
@@ -129,7 +129,7 @@ int main(){
     c7 -= c4;
     cout << "Actual result: " << c7 << endl;
 
-    // Test Bonus unary +
+    // Test unary +
     Complex c8(1, 2.3), c9(-4.5, 6), c10(-7.8, -9.9), c11;
 
     cout << "\nExpected result of +(1+2.3i) = (1+2.3i)" << endl;
@@ -145,7 +145,7 @@ int main(){
     c12 = +c11;
     cout << "Actual result: " << c12<< endl;
 
-    // Test Bonus unary -
+    // Test unary -
     cout << "\nExpected result of -(1+2.3i) = (-1-2.3i)" << endl;
     Complex c13 = -c8;
     cout << "Actual result: " << c13 << endl;
@@ -159,7 +159,7 @@ int main(){
     c13 = -c11;
     cout << "Actual result: " << c13<< endl;
 
-    // Test Bonus ++Prefix increment
+    // Test ++Prefix increment
     cout << "\nExpected result: (2+3.3i), (2+3.3i)" << endl;
     Complex c14 = ++c8;
     cout << "Actual result: " << c8 << ", " << c14 << endl;
@@ -167,7 +167,7 @@ int main(){
     Complex c15 = ++c10;
     cout << "Actual result:" << c10 << ", " << c15 << endl;
 
-    // Test Bonus Postfix++ increment
+    // Test Postfix++ increment
     cout << "\nExpected result: (2+3.3i), (3+4.3i)" << endl;
     Complex c16 = c8++;
     cout << "Actual result: " << c8 << ", " << c16 << endl;
@@ -175,7 +175,7 @@ int main(){
     Complex c17 = c10++;
     cout << "Actual result: " << c10 << ", " << c17 << endl;
 
-    // Test Bonus --Prefix increment
+    // Test --Prefix increment
     cout << "\nExpected result: (1+2.3i), (1+2.3i)" << endl;
     Complex c18 = --c8;
     cout << "Actual result: " << c8 << ", " << c18 << endl;
@@ -183,7 +183,7 @@ int main(){
     Complex c19 = --c10;
     cout << "Actual result:" << c10 << ", " << c19 << endl;
 
-    // Test Bonus Postfix increment
+    // Test Postfix increment
     cout << "\nExpected result: (1+2.3i), (0+1.3i)" << endl;
     Complex c20 = c8--;
     cout << "Actual result: " << c8 << ", " << c20 << endl;
