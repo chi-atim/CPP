@@ -1,6 +1,9 @@
-// Customer.h file
-// Description: This class models a Customer
-// Author: Chiemi Mita
+/**
+** Program Name: Hotel Reservation
+** File Name: Customer.h
+** Purpose: Declares the header for the Customer class
+** Author: Chiemi Mita
+*/
 
 
 #ifndef Customer_H_INCLUDED
