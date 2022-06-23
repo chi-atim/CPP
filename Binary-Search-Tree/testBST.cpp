@@ -1,7 +1,7 @@
 /**
-** Program Name: Binary Trees
+** Program Name: Binary Search Tree
 ** File Name: testBST.cpp
-** Purpose: Tests the Binary Trees program
+** Purpose: Tests the Binary Search Tree program
 ** Author: Chiemi Mita
 */
 
