@@ -1,9 +1,8 @@
-/*
- * Name: Chiemi Mita
- * ID: 100320919
- * Instructor: Bita Shadgar
- * Section: CPSC 2150 - 001
- * chessKnight.cpp: Implements and tests knight_moves function
+/**
+** Program Name: Chess Knight
+** Purpose: Program shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
+** Author: Chiemi Mita
+** Limitation: No known limitations
 */
 
 #include <iostream>
@@ -100,7 +99,7 @@ Node* knight_moves(Node* start, Node* dest){
 int main(){
 
     int startX, startY, destX, destY;
-    cout << "=> Enter the startent Knight’s location: ";
+    cout << "=> Enter the startent Knightâ€™s location: ";
     cin >> startX >> startY;
     cout << "=> Enter the destination location: ";
     cin >> destX >> destY;
