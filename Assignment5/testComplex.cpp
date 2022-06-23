@@ -1,10 +1,7 @@
 /**
-** CPSC 1160 - Section 003 - Assignment 5
 ** Program Name: Complex
 ** Purpose: implement a class for representing complex numbers. Implements and overloads operators for Complex class.
 ** Author: Chiemi Mita
-** Student ID: 100320919
-** Date: July 1, 2019
 ** Limitation: No known limitations
 */
 
