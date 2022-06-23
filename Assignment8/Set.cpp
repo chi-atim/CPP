@@ -1,10 +1,7 @@
 /**
-** CPSC 1160 - Section 003 - Assignment 8
 ** Program Name: Set
-** Purpose: Implement an Abstract Data Type ìsetî and see the running time complexity of an ADT
+** Purpose: Implement an Abstract Data Type ‚Äúset‚Äù and see the running time complexity of an ADT
 ** Author: Chiemi Mita
-** Student ID: 100320919
-** Date: August 4, 2019
 ** Limitation: No known limitations
 */
 
