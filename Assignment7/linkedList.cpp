@@ -1,10 +1,7 @@
 /**
-** CPSC 1160 - Section 003 - Assignment 7
 ** Program Name: LinkedList
 ** Purpose: Implement a structure for representing a linked list of integers and functions to illustrate its various features
 ** Author: Chiemi Mita
-** Student ID: 100320919
-** Date: July 19, 2019
 ** Limitation: No known limitations
 */
 
