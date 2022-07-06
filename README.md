@@ -1,3 +1,6 @@
+## Assignments and Projects developed for Langara College's CPSC 1160 and CPSC 2150 
+---------------------------------------------------------------
+
 ### CPSC 1160: Algorithms and Data Structures I
 Course Description:<br/>
  - Students focus on practicing and developing programing skills. 
